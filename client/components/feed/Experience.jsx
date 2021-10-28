@@ -7,8 +7,10 @@ const Experience =() =>{
     const experienceRef=useRef()
     return (
       <>
-        <div className='childpage' ref={experienceRef}>
-                experience
+        <div className='experiencepage' ref={experienceRef}>
+                <div className='words'>
+                  
+                </div>
           </div>
       </>
     )

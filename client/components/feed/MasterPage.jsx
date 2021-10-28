@@ -12,12 +12,12 @@ const MasterPage= ({dispatch}) =>{
   return (
     <>
         <div className='master-container' style={{backgroundImage:`linear-gradient(black, black),url(${bgimg})`}}>
-            <div className='summary'>
+              <div className='summary'>
                   <div className='ABOUTME' onClick={()=>switchHandler('ABOUTME')}>About Me</div>
                   <div className='EXPERIENCE'onClick={()=>switchHandler('EXPERIENCE')}>Experience</div>
                   <div className='SKILL'onClick={()=>switchHandler('SKILL')}>Skill</div>
                   <div className='CONTACTME'onClick={()=>switchHandler('CONTACTME')}>Contact Me</div>
-              </div>   
+              </div>  
           </div>
     </>
   )

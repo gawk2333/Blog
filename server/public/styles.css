@@ -6,19 +6,57 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss (1) ***!
   \***********************************************************************************************************************/
 div.childpage {
+  position: relative;
   width: 100%;
   height: 1200px;
+  z-index: 1;
   background-color: #e2dede;
+  overflow: hidden;
+}
+
+div.article-title {
+  margin: 20vw auto 0 auto;
+  width: 80vw;
+  height: auto;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+div.words {
+  margin: 5vw auto;
+  width: 80vw;
+  height: auto;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div.aboutmepage {
   position: relative;
+  width: 100%;
+  height: 1200px;
+  z-index: 1;
+  background-color: #e2dede;
+  overflow: hidden;
+}
+
+div.experiencepage {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+  z-index: 1;
+  background-color: #e2dede;
+  overflow: hidden;
 }
 
 div.home-container {
   position: absolute;
+  z-index: 1;
   top: 40px;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 html, body {
@@ -31,16 +69,24 @@ html, body {
   padding: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
+html {
+  overflow-y: scroll;
+}
+
 div.HeaderBar {
   margin: 0;
   padding: 0;
   width: 100vw;
+  z-index: 2;
   height: 40px;
-  z-index: 1;
   display: flex;
   flex-direction: row;
   position: fixed;
-  top: 0;
+  overflow: hidden;
   background-color: white;
 }
 
@@ -63,11 +109,13 @@ div.logo {
 }
 
 div.master-container {
-  width: 100%;
-  height: 1000px;
+  position: fixed;
+  top: 40px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
   background-blend-mode: saturation;
 }
 
@@ -101,6 +149,23 @@ div.SKILL:hover {
 div.CONTACTME:hover {
   color: yellowgreen;
   cursor: pointer;
+}
+
+div.cover {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  margin-bottom: 100vh;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+div.title {
+  font-size: 80px;
+  padding-top: 40vh;
+  text-align: center;
 }
 
 .nav {
