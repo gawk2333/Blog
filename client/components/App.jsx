@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Home'
-import Fruit from './Fruit'
+
 
 const App = () => {
   return (
@@ -10,5 +10,6 @@ const App = () => {
     </>
   )
 }
+
 
 export default App

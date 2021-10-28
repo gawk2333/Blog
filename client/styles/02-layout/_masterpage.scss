@@ -4,6 +4,43 @@ div.master-container{
   background-size:cover;
   background-repeat: no-repeat;
   background-position: right;
-  filter: grayscale(100%);
   background-blend-mode: saturation;
+}
+
+div.summary{
+  max-width: 400px;
+  max-height: 500px;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  color: #271a70;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.ABOUTME{
+  &:hover{
+    color:yellowgreen;
+    cursor: pointer;
+  }
+}
+
+div.EXPERIENCE{
+  &:hover{
+    color:yellowgreen;
+    cursor: pointer;
+  }
+}
+div.SKILL{
+  &:hover{
+    color:yellowgreen;
+    cursor: pointer;
+  }
+}
+div.CONTACTME{
+  &:hover{
+    color:yellowgreen;
+    cursor: pointer;
+  }
 }
