@@ -1,0 +1,85 @@
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss ***!
+  \*******************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Festive&display=swap);
+/*!***********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss (1) ***!
+  \***********************************************************************************************************************/
+html, body {
+  background-color: white;
+  color: black;
+  font-family: "Lato", sans-serif;
+  list-style-type: none;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+div.HeaderBar {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100vw;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+div.nav-logo {
+  width: 5%;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+div.nav-logo:hover {
+  cursor: pointer;
+}
+
+div.logo {
+  text-align: center;
+  width: 90%;
+  font-family: "Festive", cursive;
+  font-size: x-large;
+}
+
+div.master-container {
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  filter: grayscale(100%);
+  background-blend-mode: saturation;
+}
+
+.nav {
+  width: 150px;
+  height: auto;
+  z-index: 3;
+  position: fixed;
+  top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px 0;
+}
+
+div.li {
+  list-style-type: none;
+  width: 150px;
+  height: 30px;
+  text-decoration: none;
+}
+div.li:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+/*# sourceMappingURL=styles.css.map*/
