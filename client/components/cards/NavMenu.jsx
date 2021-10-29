@@ -7,6 +7,7 @@ const NavMenu = () =>{
           <div className="li">About me</div>
           <div className="li">Experience</div>
           <div className="li">Skill</div>
+          <div className="li">Projects</div>
           <div className="li">Contact Me</div>
     </div>
   )

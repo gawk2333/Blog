@@ -1,29 +1,14 @@
-import React,{useRef} from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faArrowCircleDown} from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 import { connect } from "react-redux"
 import { changePage} from "./../actions/page"
 
-const Cover = ({dispatch}) =>{
-  
-  const mainRef = useRef()
-
-  const nextHandler=()=>{
-    mainRef.current.scrollIntoView({behavior:"smooth"})
-  }
+const Clear = ({dispatch}) =>{
 
   const switchHandler=(page)=>{
     dispatch(changePage(page))
   }
-
   return (
-    <>
-    <div className='cover' >
-      <div className='title'>Full stack developer
-      <div className='next' onClick={nextHandler}><FontAwesomeIcon icon={faArrowCircleDown} /></div>
-      </div>
-      </div>
-       <div className='clear' ref={mainRef}>
+    <div className='clear'>
                <div className='summary'>
                   <div className='ABOUTME' onClick={()=>switchHandler('ABOUTME')}>About Me</div>
                   <div className='EXPERIENCE'onClick={()=>switchHandler('EXPERIENCE')}>Experience</div>
@@ -32,8 +17,7 @@ const Cover = ({dispatch}) =>{
                   <div className='CONTACTME'onClick={()=>switchHandler('CONTACTME')}>Contact Me</div>
               </div>  
       </div> 
-       </>
   )
 }
 
-export default connect()(Cover);
+export default connect()(Clear);

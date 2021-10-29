@@ -8,9 +8,7 @@ const Experience =() =>{
     return (
       <>
         <div className='experiencepage' ref={experienceRef}>
-                <div className='words'>
-                  
-                </div>
+          
           </div>
       </>
     )

@@ -9,7 +9,6 @@ const App = () => {
     <>
       {/* <Fruit /> */}
       <MasterPage/>
-
       <HeaderBar/>
       <Home/>
     </>

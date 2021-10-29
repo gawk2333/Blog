@@ -1,6 +1,6 @@
 import {CHANGE_PAGE} from '../actions/page'
 
-const initialState = 'HOME'
+const initialState = []
 
 const page =(state=initialState,action) => {
   switch(action.type)
