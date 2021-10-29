@@ -15,11 +15,13 @@ div.childpage {
 }
 
 div.article-title {
-  margin: 20vw auto 0 auto;
+  margin: 50px auto 0 auto;
+  text-align: center;
   width: 80vw;
   height: auto;
   font-size: 40px;
   font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
 }
 
 div.words {
@@ -32,8 +34,8 @@ div.words {
 
 div.aboutmepage {
   position: relative;
-  width: 100%;
-  height: 1200px;
+  width: 100vw;
+  height: auto;
   z-index: 1;
   background-color: #e2dede;
   overflow: hidden;
@@ -57,6 +59,19 @@ div.projectspage {
   overflow: hidden;
 }
 
+div.projects-container {
+  position: relative;
+  width: 90%;
+  height: auto;
+  z-index: 1;
+  background-color: blue;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
 div.home-container {
   position: absolute;
   z-index: 1;
@@ -66,6 +81,55 @@ div.home-container {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+div.eachproject-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  background-color: aqua;
+  border-radius: 5%;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+div.eachproject-title {
+  text-align: center;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  height: auto;
+}
+
+div.eachproject-photo {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+div.eachproject-photo img {
+  width: 100%;
+  height: auto;
+}
+
+div.eachproject-describe {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  height: auto;
+}
+
+div.links {
+  margin: 0 auto;
+}
+div.links img {
+  margin: 10px 10px;
+  width: 30px;
+  height: 30px;
+}
+div.links img:hover {
+  cursor: pointer;
 }
 
 html, body {

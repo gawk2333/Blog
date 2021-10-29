@@ -1,0 +1,49 @@
+div.eachproject-container{
+  display: flex;
+  flex-direction:column;
+  width: 400px;
+  height: auto;
+  background-color: aqua;
+  border-radius: 5%;
+  border: 1px solid black;
+  margin:10px auto;
+}
+
+div.eachproject-title{
+  text-align: center;
+  font-size: 24px;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: auto;
+}
+
+div.eachproject-photo{
+  width: 95%;
+  height: auto;
+  margin:0 auto;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+div.eachproject-describe{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: auto;
+}
+div.links{
+  margin:0 auto;
+  img{
+    margin:10px 10px;
+    width: 30px;
+    height: 30px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+
+

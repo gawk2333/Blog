@@ -25,6 +25,14 @@ module.exports = {
         }
       },
       {
+        test: /\.svg$/,
+        loader: 'svg-url-loader',
+        options: {
+          limit:10000,
+          outputPath: 'icons',
+        }
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/

@@ -19,7 +19,7 @@ const Cover = ({dispatch}) =>{
   return (
     <>
     <div className='cover' >
-      <div className='title'>Full stack developer
+      <div className='title'> Kia Ora!
       <div className='next' onClick={nextHandler}><FontAwesomeIcon icon={faArrowCircleDown} /></div>
       </div>
       </div>

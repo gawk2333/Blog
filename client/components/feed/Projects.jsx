@@ -1,4 +1,6 @@
 import React,{useEffect,useRef} from "react";
+import EachProject from "./EachProject";
+import {projects} from "../../projects"
 
 const Projects=() =>{
   useEffect(()=>{
@@ -8,7 +10,16 @@ const Projects=() =>{
     return (
       <>
         <div className='projectspage' ref={projectsRef}>
-          
+                <div className='article-title'>
+                  Projects
+                  </div>
+                <div className='projects-container'>
+                  {
+                    projects.map((project,index)=>{
+                      return <EachProject p={project} key={index}/>
+                    })
+                  }        
+                </div>
           </div>
       </>
     )
