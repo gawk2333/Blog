@@ -7,13 +7,13 @@ const Skill =() =>{
     const skillRef=useRef()
     return (
       <>
-        <div className='childpage' ref={skillRef}>
+        <div className='skills' ref={skillRef}>
         <div className='article-title'>Skills</div>
                 <div className='words'>
                 <p>●	HTML, CSS and JavaScript.</p>
                 <p>●	Version control: Git and GitHub.</p>
                 <p>●	Heroku.</p>
-                <p> ●	Front-end: React, Redux, Handlebars, RESTful API, Materialize CSS and Skeleton CSS.</p>
+                <p> ●	Front-end: React, Redux, Handlebars, RESTful API, Sass.</p>
                 <p> ●	Back-end: Node.js, Express.js, relational databases and Knex.js.</p>
                 <p> ●	Testing: Jest, Supertest, Cheerio and Enzyme.</p>
                 <p> ●	Pair programming.</p>

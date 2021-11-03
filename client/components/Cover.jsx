@@ -24,10 +24,9 @@ const Cover = ({dispatch}) =>{
       </div>
       </div>
        <div className='clear' ref={mainRef}>
-               <div className='summary'>
+               <div className='summary' >
                   <div className='ABOUTME' onClick={()=>switchHandler('ABOUTME')}>About Me</div>
-                  <div className='EXPERIENCE'onClick={()=>switchHandler('EXPERIENCE')}>Experience</div>
-                  <div className='SKILL'onClick={()=>switchHandler('SKILL')}>Skills</div>
+                  <div className='SKILL'onClick={()=>switchHandler('SKILL')}> Skills</div>
                   <div className='PROJECTS'onClick={()=>switchHandler('PROJECTS')}>Projects</div>
                   <div className='CONTACTME'onClick={()=>switchHandler('CONTACTME')}>Contact Me</div>
               </div>  

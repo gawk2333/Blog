@@ -5,10 +5,10 @@
 /*!***********************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss (1) ***!
   \***********************************************************************************************************************/
-div.childpage {
+div.skills {
   position: relative;
   width: 100%;
-  height: 1200px;
+  min-height: 100vh;
   z-index: 1;
   background-color: #e2dede;
   overflow: hidden;
@@ -33,6 +33,7 @@ div.words {
 }
 
 div.aboutmepage {
+  margin: 0;
   position: relative;
   width: 100vw;
   height: auto;
@@ -40,31 +41,26 @@ div.aboutmepage {
   background-color: #e2dede;
   overflow: hidden;
 }
-
-div.experiencepage {
-  position: relative;
-  width: 100%;
-  height: 1200px;
-  z-index: 1;
-  background-color: #e2dede;
-  overflow: hidden;
+div.aboutmepage img {
+  margin: 20px auto;
 }
 
 div.projectspage {
+  margin-bottom: 0;
   position: relative;
   width: 100%;
-  height: 1200px;
+  min-height: 100vh;
   z-index: 1;
   background-color: #e2dede;
   overflow: hidden;
 }
 
 div.projects-container {
+  margin: 0;
   position: relative;
   width: 90%;
-  height: auto;
+  min-height: 100vh;
   z-index: 1;
-  background-color: blue;
   margin: 30px auto;
   display: flex;
   flex-direction: row;
@@ -86,9 +82,8 @@ div.home-container {
 div.eachproject-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 450px;
   height: auto;
-  background-color: aqua;
   border-radius: 5%;
   border: 1px solid black;
   margin: 10px auto;
@@ -115,7 +110,7 @@ div.eachproject-photo img {
 
 div.eachproject-describe {
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: auto;
 }
@@ -182,6 +177,7 @@ div.logo {
 }
 
 div.master-container {
+  margin-bottom: 0;
   position: fixed;
   top: 40px;
   width: 100vw;
@@ -195,8 +191,6 @@ div.master-container {
 div.summary {
   max-width: 400px;
   max-height: 500px;
-  margin-top: 200px;
-  margin-left: 50px;
   font-size: 60px;
   display: flex;
   flex-direction: column;
@@ -209,11 +203,6 @@ div.ABOUTME {
   opacity: 1;
 }
 div.ABOUTME:hover {
-  color: yellowgreen;
-  cursor: pointer;
-}
-
-div.EXPERIENCE:hover {
   color: yellowgreen;
   cursor: pointer;
 }
@@ -259,9 +248,25 @@ div.next:hover {
 div.clear {
   width: 100vw;
   height: 80vh;
+  padding-top: 20vh;
+  padding-left: 5vw;
   z-index: 1;
   color: rgba(0, 0, 0, 0);
   position: relative;
+}
+
+.footer {
+  width: 100vw;
+  height: 30px;
+  background-color: #e2dede;
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
 }
 
 .nav {

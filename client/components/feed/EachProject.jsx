@@ -15,7 +15,7 @@ const EachProject=({p}) =>{
                <img src={photo}/>
           </div>
           <div className='eachproject-describe'>
-               {discription}
+               <p>{discription}</p>
           </div>
           <div className='links'>
                 <a href={githuburl}>

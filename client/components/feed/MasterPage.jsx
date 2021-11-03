@@ -1,21 +1,11 @@
-import React,{useRef,useEffect} from "react";
+import React from "react";
 import bgimg from "../../styles/bgimg.jpeg"
-import { connect } from 'react-redux'
 
 
 
 
-const MasterPage= ({dispatch}) =>{
 
-  // const mainRef=useRef()
-  // console.log(page)
-  // useEffect(()=>{
-  //   if(page=="HOME")
-  //   {
-  //     mainRef.current.scrollIntoView(false)
-  //   }
-  // },[page])
-
+const MasterPage= () =>{
  
 
   return (
@@ -26,11 +16,5 @@ const MasterPage= ({dispatch}) =>{
     </>
   )
 }
-// const mapStateToProps=(state)=>
-// {
-//   return ({
-//     page:state.page,
-//   })
-// }
 
-export default connect()(MasterPage);
+export default MasterPage;
