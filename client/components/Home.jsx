@@ -5,7 +5,7 @@ import Contactme from './feed/Contactme'
 import Skill from './feed/Skill'
 import Cover from './Cover'
 import Projects from "./feed/Projects";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 
 const Home = ({page}) =>{
