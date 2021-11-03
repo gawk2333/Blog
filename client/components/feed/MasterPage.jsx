@@ -10,7 +10,7 @@ const MasterPage= () =>{
 
   return (
     <>
-        <div className='master-container' style={{backgroundImage:`linear-gradient(black, black),url(${bgimg})`}}>
+        <div className='master-container' style={{backgroundImage:`linear-gradient(white, black),url(${bgimg})`}}>
 
           </div>
     </>

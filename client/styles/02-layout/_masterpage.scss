@@ -5,9 +5,10 @@ div.master-container{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-size:cover;
   background-repeat: no-repeat;
   background-blend-mode: saturation;
+  background-size: cover;
+  background-position:center;
 }
 
 div.summary{

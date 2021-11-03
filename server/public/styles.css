@@ -43,6 +43,7 @@ div.aboutmepage {
 }
 div.aboutmepage img {
   margin: 20px auto;
+  max-width: 60vw;
 }
 
 div.projectspage {
@@ -66,6 +67,52 @@ div.projects-container {
   flex-direction: row;
   flex-wrap: wrap;
   overflow: hidden;
+}
+
+div.contactme {
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  background-color: #e2dede;
+  overflow: hidden;
+}
+
+div.contact-container {
+  margin: 0;
+  position: relative;
+  width: 90%;
+  min-height: 100vh;
+  z-index: 1;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+div.contact-details {
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 20px auto;
+}
+div.contact-details:hover {
+  cursor: pointer;
+}
+div.contact-details a {
+  text-decoration-line: none;
+  color: black;
+}
+div.contact-details p.title {
+  font-size: 30px;
+  margin: 0;
+}
+div.contact-details p.link {
+  font-size: 16px;
+  margin: 0;
 }
 
 div.home-container {
@@ -183,9 +230,10 @@ div.master-container {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: saturation;
+  background-size: cover;
+  background-position: center;
 }
 
 div.summary {

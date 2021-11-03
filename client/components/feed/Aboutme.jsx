@@ -1,6 +1,7 @@
 import React,{useRef,useEffect} from "react";
 import edaImg from '../../styles/eda.jpeg' 
 import cofcoImg from '../../styles/cofco.jpeg' 
+import cafeImg from '../../styles/cafe.jpg'
 
 const Aboutme = () =>{
   useEffect(()=>{
@@ -38,6 +39,7 @@ const Aboutme = () =>{
                      know the workflow of software development. I worked in each department of the company at the beginning half year. I joined all
                      the meeting, managed to be the bridge between users and developers. The ERP system was successfully running in the summer of 2013.
                   </p>
+                  <img src={cafeImg}/>
                   <p>
                      I resigned in the July of 2014 and flighted to Christchurch in the September of 2014. I found I love this beautiful country. 
                      After one year of English study, one year of baking course and five years hard work in a cafe, I got my resident visa at the beginning of 2021.
