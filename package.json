@@ -1,11 +1,14 @@
 {
-  "name": "boilerplate-react-knex",
-  "version": "0.0.1",
-  "description": "A React and knex starter",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-knex.git",
+  "name": "myprofilewebsite",
+  "version": "1.0.0",
+  "description": "just a profile website",
+  "repository": "git@github.com:gawk2333/Blog.git",
   "main": "server/index.js",
-  "author": "EDA",
+  "author": "Kang",
   "license": "ISC",
+  "engines": {
+    "node": "14.17.4"
+  },
   "scripts": {
     "start": "node server",
     "build": "npm run webpack",
