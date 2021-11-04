@@ -20,7 +20,7 @@ const Skill =() =>{
                 <p>●	Organisation and self-management.</p>
                 <p> ●	Teamwork and collaboration.</p>
                 <p>●	Communication and interpersonal skills.</p>
-                </div>
+            </div>
           </div>
       </>
     )

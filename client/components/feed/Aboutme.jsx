@@ -16,7 +16,7 @@ const Aboutme = () =>{
             </div>
           <div className='words'>
                 <p>
-                  Kia ora! I’m Gao Kang. I'm a full stack developer with full of passion in tech industry.
+                  Kia ora! I’m Gao Kang. Originally from China, currently lives in Christchurch. I'm a full stack developer with full of passion in tech industry.
                 </p>
                 <p>
                     I am proficient in html/css/javascript (react.js/redux/node.js) including api, routing, 
@@ -27,7 +27,7 @@ const Aboutme = () =>{
                      I began venturing into the world of tech at the September of 2009, enrolling at Anyang Institution 
                      of technology. My major course was Network Engineering. It was lots of fun to set up the network devices and
                      test the security of the whole network structure. I also quite curious about how to build a website. I choosed
-                     C# and ASP.NET as my optional course and successfully developed a library search engine(used ASP.NET, MS SQL-SERVER) before 
+                     C# and ASP.NET as my optional course and successfully developed a library search engine(used ASP.net and MS Sql-server) before 
                      I graduated in the June of 2011.  
                   </p>
                   <img src={cofcoImg}/>
@@ -45,6 +45,11 @@ const Aboutme = () =>{
                      After one year of English study, one year of baking course and five years hard work in a cafe, I got my resident visa at the beginning of 2021.
                   </p>
                   <img src={edaImg}/>
+                  <p>
+                    It was a lot of fun after I left my baking job and study in Enspiral Dev Academy bootcamp. I learned so much and had lots of fun during the past 
+                    three month. We learn some new tech at the fist 4days in a week and do a project to use what we learned on Friday. It was not real development
+                     but we just practice how an Agile team works. 
+                  </p>
                   <p>
                     Since then, I have become a recent graduate of Enspiral Dev Academy, where I learnt the modern developing skills and agile skills.
                    I look forward to bringing what I learnt before and sharing them with the next team that I am fortunate enough to be a part of.

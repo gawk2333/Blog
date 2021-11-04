@@ -2,7 +2,7 @@ import React,{useRef} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faArrowCircleDown} from "@fortawesome/free-solid-svg-icons";
 import { connect } from "react-redux"
-import { changePage} from "./../actions/page"
+import { changePage} from "../actions/page"
 
 const Cover = ({dispatch}) =>{
   

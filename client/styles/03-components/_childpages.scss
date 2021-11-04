@@ -23,6 +23,10 @@ div.words{
   height: auto;
   font-size:24px;
   font-family: 'Times New Roman', Times, serif;
+  img{
+    margin: 0 auto;
+    max-width: 60vw;
+  }
 }
 
 div.aboutmepage{
@@ -33,10 +37,6 @@ div.aboutmepage{
   z-index: 1;
   background-color: rgb(226, 222, 222);
   overflow:hidden;
-  img{
-    margin: 20px auto;
-    max-width: 60vw;
-  }
 }
 
 
