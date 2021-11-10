@@ -77,12 +77,13 @@ div.contactme{
 div.contact-container{
   margin: 0;
   position: relative;
-  width: 90%;
+  float: left;
+  min-width: 400px;
   min-height: 100vh;
   z-index: 1;
   margin: 30px auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   overflow:hidden;
 }

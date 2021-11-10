@@ -1,4 +1,5 @@
 import React,{useRef,useEffect} from "react";
+import LoginButton from "../login/LoginButton";
 
 const Contactme =() =>{
   useEffect(()=>{
@@ -26,6 +27,7 @@ const Contactme =() =>{
                     <p className='link'>kang.g1988@gmail.com</p>
                     </div>
                   </div>
+                  <LoginButton/>
           </div>
       </>
     )
