@@ -1,9 +1,9 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const webpack  = require('webpack')
+const webpack = require('webpack')
 require('dotenv').config()
 
-module.exports =  {
+module.exports = {
   entry: ['./client/index.js', './client/styles/index.scss'],
   output: {
     path: path.join(__dirname, '..', 'server', 'public'),
@@ -17,10 +17,10 @@ module.exports =  {
       ignoreOrder: false // Enable to remove warnings about conflicting order
     }),
     new webpack.DefinePlugin({
-      'process.env':{
+      'process.env': {
         'NODE_ENV':JSON.stringify(process.env.NODE_ENV),
         'REACT_APP_AUTH0_DOMAIN':JSON.stringify(process.env.REACT_APP_AUTH0_DOMAIN),
-        'REACT_APP_AUTH0_CLIENT_ID':JSON.stringify(process.env.REACT_APP_AUTH0_CLIENT_ID),
+        'REACT_APP_AUTH0_CLIENT_ID':JSON.stringify(process.env.REACT_APP_AUTH0_CLIENT_ID)
       }
     })
   ],
@@ -37,7 +37,7 @@ module.exports =  {
         test: /\.svg$/,
         loader: 'svg-url-loader',
         options: {
-          limit:10000,
+          limit: 10000,
           outputPath: 'icons',
         }
       },

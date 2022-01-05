@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderBar from './HeaderBar'
 import Home from './Home'
 
-import MasterPage from "./feed/MasterPage";
+import MasterPage from './feed/MasterPage'
 
 const App = () => {
   return (
@@ -14,6 +14,5 @@ const App = () => {
     </>
   )
 }
-
 
 export default App

@@ -1,31 +1,29 @@
-import React from "react";
-import { connect } from "react-redux"
+import React from 'react'
+import { connect } from 'react-redux'
 import Aboutme from './feed/Aboutme'
 import Contactme from './feed/Contactme'
 import Skill from './feed/Skill'
 import Cover from './Cover'
-import Projects from "./feed/Projects";
-import Footer from "./Footer";
+import Projects from './feed/Projects'
+import Footer from './Footer'
 
-
-const Home = ({page}) =>{
+const Home = ({ page }) => {
   return (
     <>
 
       <Cover/>
-      {page==='ABOUTME'? <Aboutme/> :null}
-      {page==='SKILL'? <Skill/> :null}
-      {page==='PROJECTS'? <Projects/>: null}
-      {page==='CONTACTME'? <Contactme/> :null}
+      {page === 'ABOUTME' ? <Aboutme/> : null}
+      {page === 'SKILL' ? <Skill/> : null}
+      {page === 'PROJECTS' ? <Projects/> : null}
+      {page === 'CONTACTME' ? <Contactme/> : null}
       <Footer/>
     </>
   )
 }
 
-const mapStateToProps= (state)=>
-{
+const mapStateToProps = (state) => {
   return ({
-    page:state.page
+    page: state.page
   })
 }
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Home)

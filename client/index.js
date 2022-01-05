@@ -10,7 +10,7 @@ import Auth0ProviderWithHistory from './auth/Auth0ProviderWithHistory'
 const composeEnhancers = (process.env.NODE_ENV !== 'production' &&
                           typeof window !== 'undefined' &&
                           window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
-                          compose;
+                          compose
 
 const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)))
 
@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
   render(
     <Provider store={store}>
       <Auth0ProviderWithHistory>
-               <App />
-        </Auth0ProviderWithHistory>
-      </Provider>,
+        <App />
+      </Auth0ProviderWithHistory>
+    </Provider>,
     document.getElementById('app')
   )
 })
